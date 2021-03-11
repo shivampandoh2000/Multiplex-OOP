@@ -5,10 +5,18 @@ import { TwoDim } from "./twoD";
 import { Scrn } from "./screen";
 
 class multiplex {
-  scr: Scrn;
-  mo: Movie;
-  constructor(scr: Scrn, mov: Movie) {
-    this.scr = scr;
-    this.mo = mov;
+  scr: Array<Scrn>;
+  mo: Array<Movie>;
+  constructor() {
+    this.scr = [];
+    this.mo = [];
+  }
+
+  addScr(scr: Scrn) {
+    this.scr.push(scr);
+  }
+
+  addMov(mov: Movie) {
+    this.mo.push(mov);
   }
 }
