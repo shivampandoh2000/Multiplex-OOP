@@ -20,3 +20,5 @@ class multiplex {
     this.mo.push(mov);
   }
 }
+
+export { multiplex };

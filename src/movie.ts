@@ -7,6 +7,10 @@ class Movie {
     this.movName = movnam;
     this.type = type;
   }
+
+  getName() {
+    return this.movName;
+  }
 }
 
 export { Movie };
