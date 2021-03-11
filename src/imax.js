@@ -21,10 +21,11 @@ var Imax = /** @class */ (function (_super) {
     __extends(Imax, _super);
     function Imax(name, mov, price) {
         var _this = _super.call(this, name, mov) || this;
+        _this.name = name;
         _this.price = price;
         return _this;
     }
-    Imax.prototype.getprice = function () {
+    Imax.prototype.getPrice = function () {
         return this.price;
     };
     return Imax;

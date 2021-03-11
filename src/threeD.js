@@ -21,6 +21,7 @@ var ThreeDim = /** @class */ (function (_super) {
     __extends(ThreeDim, _super);
     function ThreeDim(name, price) {
         var _this = _super.call(this, name) || this;
+        _this.name = name;
         _this.price = price;
         return _this;
     }

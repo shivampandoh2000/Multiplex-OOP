@@ -21,6 +21,7 @@ var TwoDim = /** @class */ (function (_super) {
     __extends(TwoDim, _super);
     function TwoDim(name, price) {
         var _this = _super.call(this, name) || this;
+        _this.name = name;
         _this.price = price;
         return _this;
     }

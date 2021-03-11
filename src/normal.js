@@ -21,10 +21,11 @@ var Normal = /** @class */ (function (_super) {
     __extends(Normal, _super);
     function Normal(name, mov, price) {
         var _this = _super.call(this, name, mov) || this;
+        _this.name = name;
         _this.price = price;
         return _this;
     }
-    Normal.prototype.getprice = function () {
+    Normal.prototype.getPrice = function () {
         return this.price;
     };
     return Normal;

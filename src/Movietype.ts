@@ -4,7 +4,7 @@ class MovTyp {
     this.name = name;
   }
 
-  getname() {
+  public getname() {
     return this.name;
   }
 }
